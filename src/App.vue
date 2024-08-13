@@ -2,12 +2,12 @@
 <template>
   <div id="app">
     <h1>Full Screen Image Gallery Demo</h1>
-    <FullScreenImageGallery :images="imageUrls" />
+    <FullScreenImageGallery :images="imageUrls"/>
   </div>
 </template>
 
 <script>
-import { ref } from 'vue'
+import {ref} from 'vue'
 import FullScreenImageGallery from './components/Viewer.vue'
 
 export default {
@@ -23,10 +23,7 @@ export default {
       'https://wallpapers.com/images/high/pinkish-sunset-in-new-york-iphone-u2lh1sr3m91pg2cv.webp',
       'https://www.shutterstock.com/image-vector/cargo-container-shipping-strength-shipment-260nw-446949145.jpg',
       // Add more image URLs as needed
-        'https://as2.ftcdn.net/v2/jpg/04/19/75/85/1000_F_419758574_oaS4kKwAPdYOG6XDtonfy26QPjtDA1Wp.jpg'
-
-        ''
-
+      'https://as2.ftcdn.net/v2/jpg/04/19/75/85/1000_F_419758574_oaS4kKwAPdYOG6XDtonfy26QPjtDA1Wp.jpg'
     ])
 
     return {
