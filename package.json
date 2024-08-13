@@ -1,0 +1,52 @@
+{
+  "name": "vue-img-gallery",
+  "version": "0.0.1",
+  "description": "A Vue 3 fullscreen image gallery component",
+  "type": "module",
+  "main": "dist/vue-img-gallery.umd.js",
+  "module": "dist/vue-img-gallery.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-img-gallery.es.js",
+      "require": "./dist/vue-img-gallery.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "vue": "^3.4.35"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.0.29"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "keywords": [
+    "vue",
+    "image",
+    "gallery",
+    "fullscreen",
+    "component"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vue-img-gallery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/vue-img-gallery/issues"
+  },
+  "homepage": "https://github.com/yourusername/vue-img-gallery#readme"
+}
